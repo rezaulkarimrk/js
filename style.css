@@ -25,7 +25,7 @@ section{
     height: 408px;
 }
 .middle-banner {
-    background-image: url("img/middle-bannar.png");
+    background-image: url("img/middle-bannarr.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,4 +44,19 @@ button.hm-btn {
 button.hm-btn:hover {
     color: #dddd;
     background: coral;
+}
+.Experiences {
+    box-shadow: 0px 0px 10px black;
+    padding: 25px 3%;
+    margin: 10px 15px;
+    margin-left: 30px;
+}
+h1.exp {
+    margin-left: 30px;
+}
+.lcast_class{
+    background-image: url('img/footer-bannar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -1,4 +1,7 @@
-.name-highlight{
+body{
+    margin: 0;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -7,6 +10,38 @@
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
-    width: 100%;
+.half-width img {
+    width: 75%;
+    margin-left: 30%;
+}
+.img2{
+    margin-left: 0 !important;
+}
+.top-banner{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 408px;
+}
+.middle-banner {
+    background-image: url("img/middle-bannar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 60px 0;
+}
+
+button.hm-btn {
+    border: none;
+    color: #fff;
+    background: orange;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button.hm-btn:hover {
+    color: #dddd;
+    background: coral;
 }
